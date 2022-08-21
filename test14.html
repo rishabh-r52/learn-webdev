@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<!-- Internal CSS -->
+    <style>
+        /* Priority order:
+            Elements < CLASS < ID */
+
+        /* Element Selector */
+        p{
+            /* Here, all the <p> tag bg-color is changed to antiquewhite but only the third para's text changed its color to green */
+            color: green;
+            background-color: antiquewhite;
+        }
+        /* ID Selector */
+        #firstPara{
+            color: tomato;
+        }
+        /* Class Selector */
+        .bluetext{
+            color: blue;
+        }
+        /* ID Selector */
+        #secondPara{
+            color: cadetblue;
+        }
+        /* Grouping Selector */
+        footer, span{
+            font-size: smaller;
+        }
+    </style>
+<body>
+    <p id="firstPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non!</p>
+    <p id="secondPara" class="bluetext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non!</p>
+    <div>
+        <footer>Lorem ipsum dolor sit.</footer>
+        <span>Lorem ipsum dolor sit amet consectetur.</span>
+    </div>
+</body>
+</html>
