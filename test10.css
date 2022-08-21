@@ -1,0 +1,9 @@
+html {
+    background-image: url('https://source.unsplash.com/user/erondu/1920x1080');
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color:azure;
+    text-align: center;
+    font-size: 1000%;
+}

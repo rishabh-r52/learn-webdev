@@ -1,0 +1,51 @@
+p::after {
+    content: "!";
+}
+
+p::before {
+    content: "►";
+}
+
+p::first-letter {
+    font-size: 0.8em;
+}
+
+/* p:nth-child(even) {
+    color: brown;
+} */
+
+/* p:last-child {
+    color: purple;
+} */
+
+/* p:first-child {
+    color: blue;
+}
+Selects the first element inside the p tag */
+
+/* p:nth-of-type(2n) {
+    color: brown;
+} */
+    
+/* p:first-of-type {
+    color: aquamarine;
+}
+Selects the first paragraph in each family or First in set of siblings, i.e. First in div and/or first in the file */
+
+/* p:last-of-type {
+    color: teal;
+}
+Opposite of first of type */
+
+input:focus {
+    outline: 2px solid blue;
+}
+input:invalid:not(:focus) {
+    outline: 2px solid red;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: blueviolet;
+}

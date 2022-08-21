@@ -1,0 +1,38 @@
+h2 + a {
+    color: red;
+}
+/* Only adjacent siblings */
+
+
+/* h2 ~ a {
+    color: red;
+} */
+
+
+/* h2 ~ p {
+    color: red;
+} Get any para that is sibling of h2*/
+
+
+/* footer > p {
+    color: red;
+} 
+only para directly inside footer is selected*/
+
+
+/* footer p {
+    color: red;
+} 
+only para inside footer is selected*/
+
+
+/* p {
+    color: red;
+} 
+Selects both paragraph, footer and section
+*/
+
+
+/* a[href^="https://www.udemy.com/"] {
+    color: rgb(0, 161, 201);
+} */

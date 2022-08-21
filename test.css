@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-weight: lighter;
+}
+/* p{ property : value } */
+/*Use , to modify multiple tag properties at once
+Use * (universal) selector to select every tag
+Use .className to select classes
+Use #idName to select id
+Use classes if changin attributes of many tags
+Use ID if only a certain tag needs modification
+use href^ to also include any interior link related to udemy.com, i.e. udemy.com/courses */
+html {
+    background-color: #1E1E1E;
+    color: whitesmoke;
+}
+a[href="https://www.udemy.com/"] {
+    color: darkgreen;
+}

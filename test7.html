@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDs and Classes</title>
+</head>
+<body>
+    <a href="test.html">Go Home</a>
+    <hr>
+    <h3>IDs & Classes</h3>
+    <!-- id is given only to 1 object -- Unique identifier -->
+    <!-- class will inherit all the properties of the class redBG blackBorder -->
+    <!-- . for class and # for ID -->
+    <div id="mainBox" class="redBG blackBorder">
+        This is mainBox.
+    </div>
+    <!--to use multiple classes, give space between them.
+    HTML works kinda like an OOPL.
+    Any change in a certain class using JS & CSS will change all tags being attached to that class.ID is Identifier.-->
+    <span class="blackBorder">This is a span</span>
+    <p class="redBG">This is a paragraph</p>
+    <!-- !emmet takes div by default emmet -- .blackBorder will create a div tag with class blackBorder -->
+    <!-- Use tagName.className to create a tag with that class, use more dots for more classes
+    Use tagName.idName to create a tag with that ID
+        e.g. span.blackBorder#spanEmmet
+    if no tagName is used, it will take div as default -->
+    <span class="blackBorder" id="spanEmmet">Used emmet here.</span>
+    <div class="redBG">This is emmet without tagName.</div>
+    <!-- Use *number after emmet code to create many number of that emmet code
+        e.g. span.redBG*4 -->
+    <span class="redBG">first</span>
+    <span class="redBG">second</span>
+    <span class="redBG">third</span>
+    <span class="redBG">fourth</span>
+</body>
+</html>

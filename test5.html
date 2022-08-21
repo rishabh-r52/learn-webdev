@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>FORMS</h2>
+    <br>
+    <a href="test.html" target="_blank">GO BACK</a>
+    <hr>
+    <form action="backend.php">
+        <!--Use <div> instead of <br>-->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="myName" id="name">
+            </div>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="myMail" id="email">
+            </div>
+            <div>
+                Date of Birth: <input type="date" name="myDOB">
+            </div>
+            <div>
+                Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            </div>
+            <div>
+                <label for="car">Car</label>
+                <select name="myCar" id="car">
+                    <option value="ind">Indica</option>
+                    <option value="swft">Swift</option>
+                    <option value="ferr" selected>Ferrari</option>
+                    <!--use 'selected' for default selection-->
+                </select>
+            </div>
+            <label for="write">Write about yourself:</label>
+            <div>
+                <textarea name="myText"cols="30" rows="10" id="write"></textarea>
+            </div>
+            <div>
+                Are you sure you wish to submit?: <input type="checkbox" name="myConfirmation" id="Confirm">
+            </div>
+            <div>
+                <input type="submit" name="mySubmission">
+                <input type="reset" name="myReset">
+            </div>
+        </form>
+</body>
+</html>
